@@ -1,0 +1,11 @@
+.marquee{
+    animation: marquee 5s ;
+    white-space: hidden;
+}
+    /* for maruqee extra customise  */
+@keyframes marquee{
+    0% {transform: translateX(100%);}
+    100% {
+        transform: translateX(-100%);
+    }
+}
